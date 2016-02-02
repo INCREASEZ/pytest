@@ -41,3 +41,12 @@ ind5=(2,2,3,4,5)
 f=lambda x:x[0]+x[1]+x[2]+x[3]+x[4]
 print(f(ind4)/5.0)
 print(f(ind5)/5)
+print(float((f(ind4)/5.0)))
+
+#2-10
+ind6 = input("input(1~100):")
+while int(ind6)>100 or int(ind6)<1:
+    ind6 = input("input(1~100):")
+else:
+    print("bye")
+
